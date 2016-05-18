@@ -48,26 +48,19 @@ a:visited {
 }
 
 .content {
-	padding-top: 30vh;
-	width: 100vw;
-	margin: 0 auto;
-	height: 100vh;
+	padding-left: 50vw;
+	padding-top: 20vh;
 	color: #464646;
 	font-family: "Open Sans";
 	font-size: 18px;
 	opacity: 0.90;
 }
 
-.profile {
-	margin-left: 75px;
-	margin-top: 150px;
-	border: solid #8EBDC7;
-}
-
-.profile {
-	height: 300px;
-	opacity: 0.85;
-	border-radius: 50%;
+.container-about {
+	height: 100vh;
+	width: auto;
+	background-image: url("Images/headshot.png");
+	background-repeat: no-repeat;
 }
 
 ul {
@@ -77,7 +70,7 @@ ul {
 }
 
 .text-center {
-	padding-left: 28%;
+	padding-left: 35%;
 }
 
 .nav {
@@ -106,7 +99,7 @@ ul {
 .container-professional {
 	height: 100vh;
 	width: 100vw;
-    background-color: #e9e9e9;
+  background-color: #e9e9e9;
 }
 .box-one {
 	padding: 0;
@@ -124,7 +117,13 @@ ul {
 	opacity: .75;
 	z-index: initial;
 }
-
+.coming-soon {
+	padding-top: 50%;
+	text-align: center;
+	color: lightgray;
+	font-family: "Open Sans";
+	font-size: 18px;
+}
 .box-three {
 	padding: 0;
 	margin: 0;
