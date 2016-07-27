@@ -17,13 +17,13 @@ h1 {
 a:link {
 	color: #8EBDC7;
 	font-family: "Open Sans";
-	font-size: 25px;
+	font-size: 2opx;
 }
 
 a:hover {
 	color: darkgrey;
 	font-family: "Open Sans";
-	font-size: 25px;
+	font-size: 20px;
 	text-decoration: none;
 	opacity: 0.5;
 }
@@ -71,7 +71,7 @@ ul {
 }
 
 .text-center {
-	padding-left: 38vw;
+	padding-left: 42vw;
 }
 
 .nav {
