@@ -48,8 +48,8 @@ a:visited {
 }
 
 .content {
-	padding-left: 50vw;
-	padding-top: 15vh;
+	padding-left: 50%;
+	padding-top: 5%;
 	color: #464646;
 	font-family: "Open Sans";
 	font-size: 16px;
@@ -70,14 +70,13 @@ ul {
 	list-style: none;
 }
 
-.text-center {
+/*.text-center {
 	padding-left: 42vw;
 }
 
 .nav {
 	padding: 20px;
 }
-
 
 .foot-center {
 	padding-left: 41%;
@@ -97,13 +96,13 @@ ul {
 	position: absolute;
 	z-index: 1;
 }
-.container-professional {
+*/
+.container {
 	height: 100vh;
 	width: 100vw;
   background-color: #e9e9e9;
 }
 .box-one {
-	padding: 0;
 	margin: 0;
 	height: 100vh;
 	background-color: #93999f;
@@ -112,15 +111,16 @@ ul {
 
 .box-two {
 	padding: 0;
-	margin: 0;
-	height: 100vh;
-	background-color: #5e3c58;
+	margin: 0; 
 	opacity: .75;
 	z-index: initial;
 }
 .coming-soon {
-	padding-top: 50%;
+	padding-left: 1%;
 	text-align: center;
+	padding-top: 20%;
+	background-color: #5e3c58;
+	height: 100vh;
 	color: lightgray;
 	font-family: "Open Sans";
 	font-size: 18px;
@@ -131,4 +131,8 @@ ul {
 	height: 100vh;
 	background-color: #bfb5b2;
 	opacity: .75;
+}
+
+p {
+	padding-left: 1%;
 }
