@@ -48,21 +48,30 @@ a:visited {
 }
 
 .content {
-	padding-left: 50%;
-	padding-top: 5%;
+	padding-left: 40%;
+	padding-top: 10%;
 	color: #464646;
 	font-family: "Open Sans";
-	font-size: 16px;
+	font-size: 18px;
 	opacity: 0.90;
 }
 
 .container-about {
 	height: 100vh;
 	width: auto;
-	background-image: url("Images/headshot.png");
+	background-image: url("Images/headshot_3.png");
 	background-repeat: no-repeat;
 }
 
+@media all and ( max-width: 600px ) {
+  .container-about {
+    background: none;
+  }
+	.content {
+		font-size: 14px;
+		padding-left: 2%;
+	}
+}
 ul {
 	width: 100vw;
 	margin: 10px;
