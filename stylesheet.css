@@ -1,3 +1,11 @@
+.homescreen {
+width: 960px;
+position: relative;
+margin:0 auto;
+line-height: 1.4em;
+background-color: gray; 
+}
+
 p {
 	padding-left: 45%;
 	padding-top: 20%;
